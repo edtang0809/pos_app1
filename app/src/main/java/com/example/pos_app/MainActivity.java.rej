@@ -1,0 +1,19 @@
+diff a/pos_app/app/src/main/java/com/example/pos_app/MainActivity.java b/pos_app/app/src/main/java/com/example/pos_app/MainActivity.java	(rejected hunks)
+@@ -0,0 +1,16 @@
++package com.example.pos_app;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.os.Bundle;
++
++public class MainActivity extends AppCompatActivity {
++
++    String x ="";
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main);
++    }
++}
+\ No newline at end of file
